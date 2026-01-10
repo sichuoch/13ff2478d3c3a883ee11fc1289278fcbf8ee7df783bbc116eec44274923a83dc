@@ -1,21 +1,21 @@
 name: sichuoch
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '53 4/6 * * *'
+    - cron: '48 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: sichuoch
         env:
-          tewie19: ${{ secrets.tewie19 }}
+          y46789: ${{ secrets.y46789 }}
         run: |
-          echo $tewie19 | jq -r .curuv19215 | /bin/bash
-          echo $urlh11 | jq -r .ytff7 | /bin/bash
-          echo $q85117 | jq -r .ln914 | /bin/bash
-          echo $bgi57 | jq -r .zdsgh01 | /bin/bash
+          echo $y46789 | jq -r .htfi5928 | /bin/bash
+          echo $ze379 | jq -r .zulc02 | /bin/bash
+          echo $bgw3 | jq -r .q42 | /bin/bash
+          echo $qsmhh123 | jq -r .zoza30020 | /bin/bash
 
